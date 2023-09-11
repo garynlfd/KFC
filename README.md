@@ -43,11 +43,11 @@ Furthermore, we combine six kinship datasets (see below) to create a large kinsh
 ├── ...(other files)
 ├── Cornell_Kin/
 ├── UB_KinFace/
-├── KinFaceW-I
-├── KinFaceW-II
-├── Family101_150x120
-├── Train(from FIW)
-├── Validation(from FIW)
-└── Test(from FIW)
+├── KinFaceW-I/
+├── KinFaceW-II/
+├── Family101_150x120/
+├── Train(from FIW)/
+├── Validation(from FIW)/
+└── Test(from FIW)/
 
 ```
