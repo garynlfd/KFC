@@ -6,8 +6,9 @@ KFC: Kinship Verification with Fair Contrastive loss and Multi-Task Learning
 **`2023-08`**: Accepted to [BMVC 2023](https://bmvc2023.org/)
 
 ## Introduction
-KFC: Kinship Verification with Fair Contrastive loss and Multi-Task Learning, aim to solve kinship verification task while improving racial fairness. We utilize attention module in our model and multi-task learning to enhance accuracy in kinship verification while creating a new fair contrastive loss function and using gradient reversal to deacrease standard deviation among 4 races(African, Asian, Caucasian, Indian).
-We also combine 6 kinship datasets(see below) to get a large kinship dataset. Moreover, we annotate every identity in our dataset to gain racial information.
+KFC: Kinship Verification with Fair Contrastive Loss and Multi-Task Learning aims to solve the kinship verification task while improving racial fairness. We utilize an attention module in our model and employ multi-task learning to enhance accuracy in kinship verification. Additionally, we have developed a new fair contrastive loss function and use gradient reversal to decrease the standard deviation among the four races (African, Asian, Caucasian, Indian).
+
+Furthermore, we combine six kinship datasets (see below) to create a large kinship dataset. Moreover, we have annotated every identity in our dataset to include racial information.
 
 ## Requirements
 ### Installation

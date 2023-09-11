@@ -1,18 +1,13 @@
-import gc
 from sklearn.metrics import roc_curve,auc
 from dataset import *
 from models_multi_task import *
 from torch.optim import SGD
 from losses import *
-from cross_entropy_loss import *
-from arcface_loss import *
 import argparse
 from tqdm import tqdm
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 import numpy as np
-import seaborn as sns
-import pandas as pd 
 
 import warnings; warnings.filterwarnings("ignore")
 
