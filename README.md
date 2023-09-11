@@ -12,15 +12,42 @@ Furthermore, we combine six kinship datasets (see below) to create a large kinsh
 
 ## Requirements
 ### Installation
+1. Clone this project and create virtual environment
+    ```bash
+    git clone https://github.com/garynlfd/KFC.git
+    conda create --name KFC python=3.8
+    conda create activate KFC
+    ```
+2. Install requirements
+    ```bash
+    pip install -r requirements.txt
+    ```
 ### Datasets
-Please download these datasets on their websites.
-1. CornellKin
+1. Please download these datasets on their websites.
++  CornellKin
     + http://chenlab.ece.cornell.edu/projects/KinshipVerification/
-2. UBKinFace
++  UBKinFace
     + http://www1.ece.neu.edu/~yunfu/research/Kinface/Kinface.htm
-3. KinFaceW-I, KinFaceW-II
++  KinFaceW-I, KinFaceW-II
     + https://www.kinfacew.com/download.html
-4. Family101
++  Family101
     + http://chenlab.ece.cornell.edu/projects/KinshipClassification/index.html
-5. FIW
++  FIW
     + https://web.northeastern.edu/smilelab/fiw/
+2. Please place these datasets in the same folder as train.py, find.py and test.py:
+```text
+./KFC
+├── train.py
+├── find.py
+├── test.py
+├── ...(other files)
+├── Cornell_Kin/
+├── UB_KinFace/
+├── KinFaceW-I
+├── KinFaceW-II
+├── Family101_150x120
+├── Train(from FIW)
+├── Validation(from FIW)
+└── Test(from FIW)
+
+```
