@@ -52,8 +52,7 @@ Furthermore, we combine six kinship datasets (see below) to create a large kinsh
 ```
 ## Command
 ### Training
->>
-batch_size: default 25
+>>batch_size: default 25
 sample: The folder in which the data should be placed, corresponding to data files folder
 save_path: THe folder in which the ckpt will be saved, corresponding to log files folder
 epochs: default 100
@@ -61,27 +60,39 @@ beta: temperature parameters default 0.08
 log_path: name the log file
 gpu: choose which gpu you want to use
 ```
-python train.py --batch_size 25 --sample ./data_files --save_path ./log_files --epochs 100 --beta 0.08 --log_path log_files/{file_name}.txt --gpu 1
+python train.py --batch_size 25 \
+                --sample ./data_files \
+                --save_path ./log_files \
+                --epochs 100 --beta 0.08 \
+                --log_path log_files/{file_name}.txt \
+                --gpu 1
 ```
 ### Finding
->>
-sample: The folder in which the data should be placed, corresponding to data files folder
+>>sample: The folder in which the data should be placed, corresponding to data files folder
 save_path: THe folder in which the ckpt will be saved, corresponding to log files folder
 batch_size: default 50
 log_path: name the log file
 gpu: choose which gpu you want to use
 ```
-python find.py --sample ./data_files --save_path ./log_files --batch_size 50 --log_path log_files/{file_name}.txt --gpu 1
+python find.py --sample ./data_files \
+               --save_path ./log_files \
+               --batch_size 50 \
+               --log_path log_files/{file_name}.txt \
+               --gpu 1
 ```
 
 ### Testing
->>
-sample: The folder in which the data should be placed, corresponding to data files folder
+>>sample: The folder in which the data should be placed, corresponding to data files folder
 save_path: THe folder in which the ckpt will be saved, corresponding to log files folder
 threshold: the output value from find.py
 batch_size: default 50
 log_path: name the log file
 gpu: choose which gpu you want to use
 ```
-python test.py --sample ./sample0 --save_path ./log_files --threshold {output value from find.py} --batch_size 50 --log_path log_files/{file_name}.txt --gpu 1
+python test.py --sample ./sample0 \
+               --save_path ./log_files \
+               --threshold {output value from find.py} \
+               --batch_size 50 \
+               --log_path log_files/{file_name}.txt \
+               --gpu 1
 ```
