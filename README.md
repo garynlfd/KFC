@@ -14,13 +14,13 @@ Furthermore, we combine six kinship datasets (see below) to create a large kinsh
 ### Installation
 1. Clone this project and create virtual environment
     ```bash
-    git clone https://github.com/garynlfd/KFC.git
-    conda create --name KFC python=3.8
-    conda create activate KFC
+    $ git clone https://github.com/garynlfd/KFC.git
+    $ conda create --name KFC python=3.8
+    $ conda create activate KFC
     ```
 2. Install requirements
     ```bash
-    pip install -r requirements.txt
+    $ pip install -r requirements.txt
     ```
 ### Datasets
 1. Please download these datasets on their websites.
@@ -60,7 +60,7 @@ beta: temperature parameters default 0.08
 log_path: name the log file  
 gpu: choose which gpu you want to use  
 ```
-python train.py --batch_size 25 \
+$ python train.py --batch_size 25 \
                 --sample ./data_files \
                 --save_path ./log_files \
                 --epochs 100 --beta 0.08 \
@@ -74,7 +74,7 @@ batch_size: default 50
 log_path: name the log file  
 gpu: choose which gpu you want to use  
 ```
-python find.py --sample ./data_files \
+$ python find.py --sample ./data_files \
                --save_path ./log_files \
                --batch_size 50 \
                --log_path log_files/{file_name}.txt \
@@ -89,7 +89,7 @@ batch_size: default 50
 log_path: name the log file  
 gpu: choose which gpu you want to use  
 ```
-python test.py --sample ./sample0 \
+$ python test.py --sample ./sample0 \
                --save_path ./log_files \
                --threshold {output value from find.py} \
                --batch_size 50 \
