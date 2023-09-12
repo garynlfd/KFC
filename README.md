@@ -82,12 +82,12 @@ python find.py --sample ./data_files \
 ```
 
 ### Testing
->>sample: The folder in which the data should be placed, corresponding to data files folder
->>save_path: THe folder in which the ckpt will be saved, corresponding to log files folder
->>threshold: the output value from find.py
->>batch_size: default 50
->>log_path: name the log file
->>gpu: choose which gpu you want to use
+>>sample: The folder in which the data should be placed, corresponding to data files folder  
+save_path: THe folder in which the ckpt will be saved, corresponding to log files folder  
+threshold: the output value from find.py  
+batch_size: default 50  
+log_path: name the log file  
+gpu: choose which gpu you want to use  
 ```
 python test.py --sample ./sample0 \
                --save_path ./log_files \
