@@ -96,3 +96,7 @@ $ python test.py --sample ./sample0 \
                --log_path log_files/{file_name}.txt \
                --gpu 1
 ```
+
+## Acknowledgements
+Our implementation uses code from the following repositories:
++ [RFIW 2021](https://github.com/Zhangxm520/rfiw2021/)
