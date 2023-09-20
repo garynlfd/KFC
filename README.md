@@ -64,10 +64,10 @@ Furthermore, we combine six kinship datasets (see below) to create a large kinsh
 ### Training
 >>batch_size: default 25  
 sample: The folder in which the data should be placed, corresponding to data files folder  
-save_path: THe folder in which the ckpt will be saved, corresponding to log files folder  
+save_path: The folder in which the ckpt will be saved, corresponding to log files folder  
 epochs: default 100  
 beta: temperature parameters default 0.08  
-log_path: name the log file  
+log_path: name The log file  
 gpu: choose which gpu you want to use  
 ```
 $ python train.py --batch_size 25 \
@@ -79,9 +79,9 @@ $ python train.py --batch_size 25 \
 ```
 ### Finding
 >>sample: The folder in which the data should be placed, corresponding to data files folder  
-save_path: THe folder in which the ckpt will be saved, corresponding to log files folder  
+save_path: The folder in which the ckpt will be saved, corresponding to log files folder  
 batch_size: default 50  
-log_path: name the log file  
+log_path: name The log file  
 gpu: choose which gpu you want to use  
 ```
 $ python find.py --sample ./data_files \
@@ -93,10 +93,10 @@ $ python find.py --sample ./data_files \
 
 ### Testing
 >>sample: The folder in which the data should be placed, corresponding to data files folder  
-save_path: THe folder in which the ckpt will be saved, corresponding to log files folder  
-threshold: the output value from find.py  
+save_path: The folder in which the ckpt will be saved, corresponding to log files folder  
+threshold: The output value from find.py  
 batch_size: default 50  
-log_path: name the log file  
+log_path: name The log file  
 gpu: choose which gpu you want to use  
 ```
 $ python test.py --sample ./sample0 \
