@@ -2,7 +2,7 @@
 <h1>KFC 🍗 (BMVC 2023) </h1>
 <h3>KFC: Kinship Verification with Fair Contrastive loss and Multi-Task Learning</h3>
 
-Jia Luo Peng&nbsp; Keng Wei Chang&nbsp; Shang-Hong Lai&nbsp;
+Jia Luo Peng,&nbsp; Keng Wei Chang,&nbsp; Shang-Hong Lai&nbsp;
 
 National Tsing Hua University, Taiwan
 
