@@ -33,7 +33,9 @@ Furthermore, we combine six kinship datasets (see below) to create a large kinsh
     $ pip install -r requirements.txt
     ```
 ### Datasets
-1. Please download these datasets on their websites.
+1. Please download these datasets from this URL
+	+ https://drive.google.com/drive/folders/1r8yi1L6ues2gB6HGQD-UJhJwZl7Gtf_q?usp=drive_link
+2. These are the datasets I used. I downloaded them and found that some of the images are wrong person, so I did data cleaning. So please use the above URL to run the code without error.
 +  CornellKin
     + http://chenlab.ece.cornell.edu/projects/KinshipVerification/
 +  UBKinFace
@@ -44,7 +46,7 @@ Furthermore, we combine six kinship datasets (see below) to create a large kinsh
     + http://chenlab.ece.cornell.edu/projects/KinshipClassification/index.html
 +  FIW
     + https://web.northeastern.edu/smilelab/fiw/
-2. Please place these datasets in the same folder as train.py, find.py and test.py:
+3. Please place these datasets in the same folder as train.py, find.py and test.py:
 ```text
 ./KFC
 ├── train.py
